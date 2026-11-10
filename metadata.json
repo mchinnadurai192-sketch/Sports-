@@ -1,0 +1,6 @@
+{
+  "name": "Thamiyanur Agni Boys Sports - AI Kabaddi Live Scoreboard",
+  "description": "Agni Boys Ground Kabaddi live scoreboard with Umpire Microphone Controller, Gemini Human Male Voice Announcer in Tamil, 30s raid timer, fast tackle sounds, and two-team raid point history with Excel (.xlsx) export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

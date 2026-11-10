@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-teko: 'Teko', sans-serif;
+  --font-rajdhani: 'Rajdhani', sans-serif;
+  --font-digital: 'Chakra Petch', monospace, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: #0b0f19;
+    color: #f1f5f9;
+    font-family: var(--font-rajdhani), system-ui, -apple-system, sans-serif;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Digital LED glow effects */
+.led-glow-amber {
+  text-shadow: 0 0 12px rgba(245, 158, 11, 0.7), 0 0 24px rgba(245, 158, 11, 0.4);
+}
+
+.led-glow-red {
+  text-shadow: 0 0 12px rgba(239, 68, 68, 0.7), 0 0 24px rgba(239, 68, 68, 0.4);
+}
+
+.led-glow-green {
+  text-shadow: 0 0 12px rgba(34, 197, 94, 0.7), 0 0 24px rgba(34, 197, 94, 0.4);
+}
+
+.led-glow-cyan {
+  text-shadow: 0 0 12px rgba(6, 182, 212, 0.7), 0 0 24px rgba(6, 182, 212, 0.4);
+}
+
+/* Stadium background pattern */
+.bg-mat-grid {
+  background-image: radial-gradient(rgba(249, 115, 22, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
